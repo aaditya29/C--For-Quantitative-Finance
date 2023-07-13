@@ -27,11 +27,11 @@ int main()
     double monthInterest = interest / monthsInYear;
     long monthsOfLoan = yearsOfLoan * monthsInYear;
 
-    cout << principal << " " << endl
-         << interest << " " << endl
-         << yearsOfLoan << " " << endl
-         << monthInterest << " " << endl
-         << monthsOfLoan << endl;
+    cout << "here is principal " << principal << " " << endl
+         << "here is interest rate " << interest << " " << endl
+         << "here is years of loan " << yearsOfLoan << " " << endl
+         << "here is months of interest " << monthInterest << " " << endl
+         << "here is number of months for loan" << monthsOfLoan << endl;
 
     return 0;
 }
