@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/adityamishra/Documents/C++ For Quant/03-Operators, CMath And IOManip",
-      "program": "/Users/adityamishra/Documents/C++ For Quant/03-Operators, CMath And IOManip/build/Debug/outDebug"
+      "cwd": "/Users/adityamishra/Documents/C++ For Quant/04-Amortizing Engine",
+      "program": "/Users/adityamishra/Documents/C++ For Quant/04-Amortizing Engine/build/Debug/outDebug"
     }
   ]
 }
