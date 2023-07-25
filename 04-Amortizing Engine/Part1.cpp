@@ -21,6 +21,10 @@ double multiplier(double firstNum, double secondNum)
     return firstNum * secondNum;
 }
 
+/*
+ Here we find an amortization schedule which tells us how much of the loan principal is being paid off each month, and how much of the monthly payment is just pure interest.
+ We would like a statement for each of the months of the loan, until eventually the loan payments are complete and all of the principal has been paid back. To do this, we introduce ‘while’ loops.
+*/
 int main()
 {
     const int monthsInYear = 12;
@@ -60,5 +64,12 @@ int main()
 
     long currLoanMonth = 1;
 
+    while (currLoanMonth <= monthsOfLoan)
+    {
+        cout << "Current Month: " << currLoanMonth << endl;
+        currLoanMonth++;
+    }
+
+    cout << "Loan payments complete." << endl;
     return 0;
 }
